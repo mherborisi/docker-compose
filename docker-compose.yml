@@ -24,12 +24,9 @@ services:
     - db
     ports:
     - 8080:80
-    networks:
-      - networkName
 volumes:
   my-vol_web:
   my-vol_db:
-networks:
   
 
 
